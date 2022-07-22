@@ -25,6 +25,11 @@ This tutorial will help explain how Regex is used to validate an email address u
 ### Anchors
 The characters ^ and \$ are anchors. Start your expressions with: "^", and end them with: "$". (exclude the quotes) 
 
+Notice how there is a ^ and $ at the beginning and end of this regex:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
+
 ### Quantifiers
 Quantifiers set the limits of the string that your regex matches. They will usually include the min/max number of characters that your regex is looking for, along with setting other desirable limits.
 
