@@ -4,9 +4,10 @@ Regular Expressions - Regex - are a series of special characters that define a s
 
 ## Summary
 
-This tutorial will help explain how Regex is used to validate an email address using specific search patterns.
-
-Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will help explain how Regex is used to validate an email address using specific search patterns. For example, to match an Email: 
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
@@ -22,9 +23,10 @@ Include a code snippet of the regex. Replace this text with your summary.
 ## Regex Components
 
 ### Anchors
-The characters ^ and \$ are anchors. Start your expressions with one of these: "^", and end them with one of these: "$". (exclude the quotes) 
+The characters ^ and \$ are anchors. Start your expressions with: "^", and end them with: "$". (exclude the quotes) 
 
 ### Quantifiers
+Quantifiers set the limits of the string that your regex matches. They will usually include the min/max number of characters that your regex is looking for, along with setting other desirable limits.
 
 ### Grouping Constructs
 
