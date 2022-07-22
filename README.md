@@ -1,10 +1,12 @@
 # Email_Regex_Tutorial_17.1
 
-Introductory paragraph (replace this with your text)
+Regular Expressions - Regex - are a series of special characters that define a search pattern.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will help explain how Regex is used to validate an email address using specific search patterns.
+
+Include a code snippet of the regex. Replace this text with your summary.
 
 ## Table of Contents
 
