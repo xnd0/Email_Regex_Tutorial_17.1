@@ -22,6 +22,7 @@ Include a code snippet of the regex. Replace this text with your summary.
 ## Regex Components
 
 ### Anchors
+The characters ^ and \$ are anchors. Start your expressions with one of these: "^", and end them with one of these: "$". (exclude the quotes) 
 
 ### Quantifiers
 
