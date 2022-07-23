@@ -123,7 +123,11 @@ m —Multi-line search: a multi-line input string should be treated as multiple 
 There are no flags in this email Regex.
 
 ### Character Escapes:
+The backslash in a regex '/' escapes a character that would otherwise be interpreted literally.
 
-## Author:
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+## About the Author:
+
+Xander is a full stack developer.
+<br> 
+Here is a link to his GitHub profile: https://github.com/xnd0
