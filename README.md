@@ -66,6 +66,20 @@ We see + and {} quantifiers in this Regex.
 
 ### Grouping Constructs
 
+You'll need to use grouping constructs to break regex sections up.
+
+The primary way you group a section of a regex is by using parentheses. Each section within parentheses is known as a subexpression.
+
+For Example:
+```
+([a-z0-9_\.-]+)
+([\da-z\.-]+)
+([a-z\.]{2,6})
+```
+are all present in the example regex:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 ### Bracket Expressions
 
 ### Character Classes
