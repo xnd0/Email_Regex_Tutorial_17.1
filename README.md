@@ -62,7 +62,7 @@ in this code:
 We see + and {} quantifiers in this Regex.
 <br>
 ...{2,6} in this example matches a minimum of 2 times, up to a maximum of 6 times.
-
+<br>
 
 ### Grouping Constructs
 
@@ -81,7 +81,12 @@ are all present in the example regex:
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
 ### Bracket Expressions
-
+Anything inside a set of square brackets represents a range of characters that we want to match.
+```
+[a-z0-9_\.-]
+[\da-z\.-]
+[a-z\.]
+```
 ### Character Classes
 
 ### The OR Operator
