@@ -22,7 +22,7 @@ This tutorial will help explain how Regex is used to validate an email address u
 
 ## Regex Components
 
-### Anchors
+### Anchors:
 The characters ^ and \$ are anchors. Start your expressions with: "^", and end them with: "$". (exclude the quotes) 
 
 Notice how there is a ^ and $ at the beginning and end of this regex:
@@ -30,7 +30,7 @@ Notice how there is a ^ and $ at the beginning and end of this regex:
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
 
-### Quantifiers
+### Quantifiers:
 Quantifiers set the limits of the string that your regex matches. They will usually include the min/max number of characters that your regex is looking for, along with setting other desirable limits.
 
 Quantifiers match as many occurrences of particular patterns as possible. They include the following:
@@ -64,7 +64,7 @@ We see + and {} quantifiers in this Regex.
 ...{2,6} in this example matches a minimum of 2 times, up to a maximum of 6 times.
 <br>
 
-### Grouping Constructs
+### Grouping Constructs:
 
 You'll need to use grouping constructs to break regex sections up.
 
@@ -80,21 +80,36 @@ are all present in the example regex:
 ```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
-### Bracket Expressions
+### Bracket Expressions:
 Anything inside a set of square brackets represents a range of characters that we want to match.
 ```
 [a-z0-9_\.-]
 [\da-z\.-]
 [a-z\.]
 ```
-### Character Classes
+### Character Classes:
+A character class in a regex defines a set of characters:
+Here are some of the other common character classes:
+```
+. —Matches any character except the newline character (\n)
+```
+```
+\d —Matches any Arabic numeral digit. This class is equivalent to the bracket expression [0-9].
+```
+```
+\w —Matches any alphanumeric character from the basic Latin alphabet, including the underscore (_). This class is equivalent to the bracket expression [A-Za-z0-9_].
+```
 
-### The OR Operator
+```
+\s —Matches a single whitespace character, including tabs and line breaks
+```
 
-### Flags
+### The OR Operator:
 
-### Character Escapes
+### Flags:
 
-## Author
+### Character Escapes:
+
+## Author:
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
