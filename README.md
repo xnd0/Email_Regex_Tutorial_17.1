@@ -105,8 +105,22 @@ Here are some of the other common character classes:
 ```
 
 ### The OR Operator:
+The OR Operator is used with a '|'. There are no OR operators in this tutorial's Regex.
 
 ### Flags:
+Flags are placed at the end of a regex, after the second slash, and they define additional functionality or limits for the regex. These are the three flags you're most likely to encounter:
+
+```
+g —Global search: the regex should be tested against all possible matches in a string.
+```
+```
+i —Case-insensitive search: case should be ignored while attempting a match in a string
+```
+```
+m —Multi-line search: a multi-line input string should be treated as multiple lines
+```
+
+There are no flags in this email Regex.
 
 ### Character Escapes:
 
