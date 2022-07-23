@@ -33,6 +33,37 @@ Notice how there is a ^ and $ at the beginning and end of this regex:
 ### Quantifiers
 Quantifiers set the limits of the string that your regex matches. They will usually include the min/max number of characters that your regex is looking for, along with setting other desirable limits.
 
+Quantifiers match as many occurrences of particular patterns as possible. They include the following:
+```
+* —Matches the pattern zero or more times
+```
+```
++ —Matches the pattern one or more times
+```
+```
+? —Matches the pattern zero or one time
+```
+```
+{} —Curly brackets can provide three different ways to set limits for a match:
+```
+```
+{ n } —Matches the pattern exactly n number of times
+```
+```
+{ n, } —Matches the pattern at least n number of times
+```
+```
+{ n, x } —Matches the pattern from a minimum of n number of times to a maximum of x number of times
+```
+in this code:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
+We see + and {} quantifiers in this Regex.
+<br>
+...{2,6} in this example matches a minimum of 2 times, up to a maximum of 6 times.
+
+
 ### Grouping Constructs
 
 ### Bracket Expressions
