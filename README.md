@@ -128,6 +128,8 @@ The backslash in a regex '/' escapes a character that would otherwise be interpr
 
 ## About the Author:
 
-Xander is a full stack developer.
+Xander is a Full Stack Developer based in California.
+<br> 
+Here is a link to his Portfolio: https://xnd0.github.io/portfolio-2022/
 <br> 
 Here is a link to his GitHub profile: https://github.com/xnd0
